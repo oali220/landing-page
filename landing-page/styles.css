@@ -10,7 +10,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: darkblue;
+    background-color: #1f2937;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
 
 ul {
@@ -44,15 +47,40 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    background-color: darkblue;
+    /* gap: 30px; */
+    background-color: #1f2937;
     color: white;
-    padding: 75px;
+    padding: 95px 75px;
+    
 }
 
 .section1 {
-    margin-left: 40px;
-    flex: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1.2;
+}
+
+.header1 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 42px;
+}
+
+.main-text1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.section2 img {
+    border-radius: 20px;
+}
+
+.section1 button {
+    padding: 5px 24px;
+    border-radius: 6px;
+    border-color: #3882f6;
+
+    background-color: #3882f6;
+    color: white;
 }
 
 .section2 {
@@ -64,9 +92,12 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 0px;
 
-    font-weight: 900;
+
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 38px;
 }
 
 .panel3 {
@@ -84,12 +115,14 @@ ul li a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    border-radius: 20px;
 }
 
-.sub-card {
+.card img {
+    border-radius: 18px;
+}
    
-}
-
 
 .panel4 {
     display: flex;
@@ -100,6 +133,11 @@ ul li a {
     background-color: lightgray;
 }
 
+.quote {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+}
+
 .panel5 {
     display: flex;
     justify-content: center;
@@ -107,8 +145,27 @@ ul li a {
     gap: 70px;
 
     padding: 30px;
-    background-color: lightblue;
+    background-color: #3882f6;
     margin: 80px;
+
+    border-radius: 16px;
+}
+
+.button5 button {
+    padding: 5px 24px;
+    border-radius: 6px;
+    border-color: white;
+
+    background-color: #3882f6;
+    color: white;
+
+}
+
+.section5-text {
+    color: white;
+
+    border-radius: 16px;
+    border-color: white;
 }
 
 .footer {
@@ -117,7 +174,11 @@ ul li a {
     align-items: center;
 
     height: 72px;
-    background-color: darkblue;
+    background-color: #1f2937;
     color: white;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
+
 
